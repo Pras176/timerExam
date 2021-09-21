@@ -326,3 +326,88 @@ footer .next_btn:hover{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+
+    @media(max-width:991px){
+        html{
+            font-size: 75%;
+        }
+        .info_box{
+            width:790;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .quiz_box{
+            width:790;
+            display: block;
+            flex-wrap: wrap;
+        }
+        body{
+            padding: 0%;
+        }
+        .result_box{
+            width:790;
+            display: block;
+            flex-wrap: wrap;
+        }
+    }
+    @media(max-width:768px){
+        html{
+            font-size: 50%;
+        }
+        .info_box{
+            width:420px ;
+            align-items:center;
+            justify-content: center;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .quiz_box{
+            width:420px ;
+            align-items:center;
+            justify-content: center;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .result_box{
+            width:420px ;
+            align-items:center;
+            justify-content: center;
+            display: block;
+            flex-wrap: wrap;
+        }
+    }
+    @media(max-width:400px){
+        html{
+            font-size: 25%;
+        }
+        .info_box{
+            width: 300px;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .quiz_box{
+            width: 300px;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .result_box{
+            width: 300px;
+            display: block;
+            flex-wrap: wrap;
+        }
+    }
